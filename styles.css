@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    background:#f7f2f7;
+    font-family:'League Spartan', sans-serif;
+}
+body,h1,h2,h3,p{
+    margin:0;
+}
+.background{
+    z-index:3;
+}
+.everything{
+    z-index:4;
+}
+.top__part{
+    margin-bottom:50px;
+}/*don't forget to use this */
+.top__part,.bottom__part{
+    display:flex;
+    gap:40px;
+    margin-bottom:50px;
+}
+.testimony{
+    width:400px;
+    background-color:#502050 ;
+}
+.testimony__person,.testimony__info{
+    display:inline-block;
+}
